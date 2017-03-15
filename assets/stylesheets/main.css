@@ -351,6 +351,20 @@ Home
     color: #a9b2b9;
 }
 
+.teaser img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+
+.speaker-info img {
+    border-radius: 50%;
+    width: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+}
+
 
 /*
 ========================================
@@ -477,8 +491,14 @@ Speakers
 ========================================
 */
 
-.speakerinfo {
+.speaker-info {
     border: 1px solid #dfe2e5;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
+}
+
+.speaker {
+    margin-bottom: 44px;
 }
